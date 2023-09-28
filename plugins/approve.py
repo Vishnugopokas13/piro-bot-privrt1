@@ -14,7 +14,7 @@ async def accept_request(client, r):
         await client.send_photo(
             r.from_user.id,
             'https://graph.org/file/60227cbf26e0d69aa0ce9.jpg',
-            f"**𝖧𝖾𝗅𝗅𝗈 {r.from_user.mention} 👻, 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 {r.chat.title}\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝗉𝗉𝗋𝗈𝗏𝖾𝖽...!!!  𝘑𝘖𝘐𝘕 𝘍𝘖𝘙 𝘔𝘖𝘝𝘐𝘌𝘚:- @MOVIE_GROP\n /start**",
+            f"**𝖧𝖾𝗅𝗅𝗈 {r.from_user.mention} 👻, 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 {r.chat.title}\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝗉𝗉𝗋𝗈𝗏𝖾𝖽...!!!**",
             reply_markup=rm)
 
     except UserIsBlocked:
